@@ -1,0 +1,68 @@
+* {
+  margin:0
+}
+
+.container {
+  border: 1px ;
+  width: 70%;
+  margin: auto;
+  position: relative;
+}
+
+.product {
+  display: inline-block;
+}
+
+.row {
+  position: relative;
+}
+
+.sconto30ipad{
+  width: 33px;
+  margin: 0px;
+  padding: 4px;
+  background: green;
+  position: absolute;
+  margin-left: 259px;
+  top: 0px;
+}
+
+.sconto5iphone {
+  width: 30px;
+  margin: 0px;
+  padding: 4px;
+  background: red;
+  position: absolute;
+  margin-left: 261px;
+  top: 0px;
+}
+
+.sconto30cuffiebeat{
+  width: 33px;
+  margin: 0px;
+  padding: 4px;
+  background: green;
+  position: absolute;
+  margin-left: 259px;
+  top: 0px;
+}
+
+.heart {
+  top: 320px;
+  right: 140px;
+  color: red;
+  font-size: 25px;
+  position: absolute;
+}
+
+.invisibleheart{
+  top: 320px;
+  right: 140px;
+  font-size: 25px;
+  position: absolute;
+  display: none;
+}
+
+.container:hover .invisibleheart{
+  display: inline-block;
+}
